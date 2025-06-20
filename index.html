@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        nav{
+            background-color: darkcyan;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top:0px;
+        }
+        nav img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+        .hero{
+            height: 89.9vh;
+            display: flex;
+            justify-content: center;
+            background-attachment: fixed;
+            align-items: center;
+            background-image: url("https://app.dropinblog.com/uploaded/blogs/34241141/files/Electronics.png");
+        }
+        .hero p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            color: white;
+            background-color: rgb(3, 3, 49);
+            padding: 10px;
+        }
+        .famouslaptops{
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url("https://th.bing.com/th/id/OIP.WCCq2nZelTZuFIRbJF7AuAHaEK?rs=1&pid=ImgDetMain");
+
+        }
+        .message{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: coral;
+            position: fixed;
+            top:89vh;
+            left:92vw;
+        }
+        .comment{
+            height: 50%;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+
+        }
+        .card img{
+            height: 50%;
+            width: 70%;
+            border-radius: 20px;
+        }
+        .cardcontainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            height: 100%;
+        }
+        .card{
+            background-color:rgb(94, 176, 12);
+            height: 350px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:30px;
+            border-radius: 10px;
+        }
+        .card p{
+            color: rgb(86, 25, 143);
+        }
+        .card button{
+            background-color: rgb(10, 10, 83);
+            color: white;
+            height: 50px;
+            width: 120px;
+            border: none;
+            border-radius: 20px;
+        }
+        .title{
+            color: rgb(19, 40, 79);
+            background-color: rgb(38, 173, 178);
+            width: 300px;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .famouslaptops{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://cdn3.vectorstock.com/i/1000x1000/54/07/digital-electronics-logo-design-vector-21255407.jpg" alt="">
+        <ul>
+            <li>Home</li>
+            <li>Laptops</li>
+            <li>Phones</li>
+            <li>Tablets</li>
+            <li>Watches</li>
+            <li>Help</li>
+        </ul>
+        <button>Login</button>
+    </nav>
+
+    <div class="hero">
+        <p class="hp">WE are ELectronicS, 
+            <br>We provide cheapest and best products</p>
+            
+    </div>
+    <div class="message">
+        <img src="comment.png" alt="" class="comment">
+    </div>
+    <div class="famouslaptops">
+        <p class="title">Famous Laptops</p>
+        <div class="cardcontainer">
+         <div class="card">
+           <img src="https://cdn.comparez-malin.fr/img/hp/2020/20927/hp-pavilion-gaming-15-2019-blanc-2.jpg" alt="">
+            <p>HP</p>
+            <button>Check out</button>
+         </div>
+         <div class="card">
+            <img src="https://s.yimg.com/os/creatr-uploaded-images/2020-12/d37e0460-3eeb-11eb-b7f9-449e864b9135" alt="">
+            <p>Macbook</p>
+            <button>Check out</button>
+         </div>
+         <div class="card">
+            <img src="https://c.scdn.gr/images/sku_main_images/040978/40978077/20230327122833_dell_inspiron_3530_15_6_fhd_i3_n305_8gb_512gb_ssd_w11_home_gr_keyboard.jpeg" alt="">
+            <p>Dell</p>
+            <button>Check out</button>
+         </div>
+         </div>
+    </div>
+    
+    
+</body>
+</html>
